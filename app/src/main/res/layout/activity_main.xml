@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="131dp"
+        android:layout_height="115dp"
+        app:srcCompat="@drawable/logo_isims"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="431dp"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/inputTND"
+        android:layout_width="372dp"
+        android:layout_height="39dp"
+        android:hint="Montant en TND"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="241dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TND"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="205dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convertir"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="302dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Euro"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="347dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="392dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
